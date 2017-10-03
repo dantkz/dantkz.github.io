@@ -215,6 +215,7 @@ DEPENDENCIES
   github-pages (>= 104)
   jekyll-feed (~> 0.6)
   jekyll-sitemap
+  jekyll-theme-cayman
   tzinfo-data
 
 BUNDLED WITH
