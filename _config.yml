@@ -26,7 +26,7 @@ github_username:  dantkz
 
 # Build settings
 markdown: kramdown
-theme: minima #jekyll-theme-cayman
+theme: cayman #minima #jekyll-theme-cayman
 plugins:
   - jekyll-feed
   - jekyll-sitemap
