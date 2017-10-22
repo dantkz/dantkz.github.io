@@ -4,13 +4,13 @@ title: Hello world!
 math: true
 ---
 
-Math equation:
+Maths:
 $$
 e^{ i \pi } + 1 = 0
 $$
 
 
-Code snippet:
+Code:
 ```
 def __init__(self):
     print('Hello world!')
