@@ -1,6 +1,7 @@
 *This is someones's post from [Stack Overflow Documentation][4] that became unavailable due to Stack Overflow shutting down
 Stack Overflow Documentation. I have downloaded the post from [Internet Archive][5], and sharing it here for others to use. Thanks to the original author.*
 
+# How to debug a memory leak in Tensorflow
 
 To improve memory allocation performance, many TensorFlow users often use [`tcmalloc`][1] instead of the default `malloc()` implementation, as `tcmalloc` suffers less from fragmentation when allocating and deallocating large objects (such as many tensors).  Some memory-intensive TensorFlow programs have been known to leak **heap address space** (while freeing all of the individual objects they use) with the default `malloc()`, but performed just fine after switching to `tcmalloc`.  In addition, `tcmalloc` includes a [heap profiler][2], which makes it possible to track down where any remaining leaks might have occurred.
 
