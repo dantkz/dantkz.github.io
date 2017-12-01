@@ -1,5 +1,4 @@
-*This is someones's post from [Stack Overflow Documentation][4] that became unavailable due to Stack Overflow shutting down
-Stack Overflow Documentation. I have downloaded the post from [Internet Archive][5], and sharing it here for others to use. Thanks to the original author.*
+*This is a copy of someones's post from [Stack Overflow Documentation][4] on how to debug a memory leak in TensorFlow. Unfortunately, the original post became unavailable due to Stack Overflow shutting down "Documentation". I have downloaded the post from [Internet Archive][5], and I'm sharing it here for others to use. Thanks to the original author.*
 
 ### How to debug a memory leak in TensorFlow
 
