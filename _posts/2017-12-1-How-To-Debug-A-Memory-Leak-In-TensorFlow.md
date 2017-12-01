@@ -1,6 +1,38 @@
-*This is a copy of someones's post from [Stack Overflow Documentation][4] on how to debug a memory leak in TensorFlow. Unfortunately, the original post became unavailable due to Stack Overflow shutting down "Documentation". I have downloaded the post from [Internet Archive][5], and I'm sharing it here for others to use. Thanks to the original author.*
+*This is a copy of discussion from [Stack Overflow Documentation][4] on how to debug a memory leak in TensorFlow. Unfortunately, the original discussion became unavailable due to Stack Overflow shutting down Stack Overflow Documentation. I have downloaded the post from [Internet Archive][5], and I'm sharing it here for others to use. Thanks to the original authors.*
 
-### How to debug a memory leak in TensorFlow
+### Finalize Graph
+
+The most common mode of using TensorFlow involves first **building** a dataflow graph of TensorFlow operators (like `tf.constant()` and `tf.matmul()`, then **running steps** by calling the [`tf.Session.run()`][6] method in a loop (e.g. a training loop).
+
+A common source of memory leaks is where the training loop contains calls that add nodes to the graph, and these run in every iteration, causing the graph to grow. These may be obvious (e.g. a call to a TensorFlow operator like `tf.square()`), implicit (e.g. a call to a TensorFlow library function that creates operators like `tf.train.Saver()`), or subtle (e.g. a call to an overloaded operator on a `tf.Tensor` and a NumPy array, which implicitly calls `tf.convert_to_tensor()` and adds a new `tf.constant()` to the graph).
+
+The [`tf.Graph.finalize()`][7] method can help to catch leaks like this: it marks a graph as read-only, and raises an exception if anything is added to the graph. For example:
+
+    loss = ...
+    train_op = tf.train.GradientDescentOptimizer(0.01).minimize(loss)
+    init = tf.initialize_all_variables()
+    with tf.Session() as sess:
+        sess.run(init)
+        sess.graph.finalize()  # Graph is read-only after this statement.
+
+        for _ in range(1000000):
+            sess.run(train_op)
+            loss_sq = tf.square(loss)  # Exception will be thrown here.
+            sess.run(loss_sq)
+
+In this case, the overloaded `*` operator attempts to add new nodes to the graph:
+
+    loss = ...
+    # ...
+    with tf.Session() as sess:
+        # ...
+        sess.graph.finalize()  # Graph is read-only after this statement.
+        # ...
+        dbl_loss = loss * 2.0  # Exception will be thrown here.
+
+
+
+### Use `tcmalloc` Allocator
 
 To improve memory allocation performance, many TensorFlow users often use [`tcmalloc`][1] instead of the default `malloc()` implementation, as `tcmalloc` suffers less from fragmentation when allocating and deallocating large objects (such as many tensors).  Some memory-intensive TensorFlow programs have been known to leak **heap address space** (while freeing all of the individual objects they use) with the default `malloc()`, but performed just fine after switching to `tcmalloc`.  In addition, `tcmalloc` includes a [heap profiler][2], which makes it possible to track down where any remaining leaks might have occurred.
 
@@ -31,3 +63,6 @@ Running the above command will pop up a GraphViz window, showing the profile inf
  [3]: http://packages.ubuntu.com/trusty/libs/libtcmalloc-minimal4
  [4]: https://stackoverflow.com/documentation#t=201703201715326785429
  [5]: https://archive.org/details/documentation-dump.7z
+ [6]: https://www.tensorflow.org/api_docs/python/tf/Session#run 
+ [7]: https://www.tensorflow.org/api_docs/python/tf/Graph#finalize
+ 
