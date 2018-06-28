@@ -6,9 +6,9 @@ permalink: /about/
 
 # Dr. Daniyar Turmukhambetov
 
-I'm a post-doctoral research associate with Dr. Gabriel Brostow at University College London.
+I'm a senior research scientist at [Niantic](https://nianticlabs.com/blog/matrixmill/).
 
-Previously, I worked on on EU-FP7 project "Capture-Reconstruct-Play" and "Nature-Smart Cities - Sensing Nature in the Queen Elizabeth Olympic Park" EPSRC Impact project. See news article about Nature-Smart Cities project on BBC website.
+Previously, I was a post-doctoral research associate with Dr. Gabriel Brostow at University College London. I worked on on EU-FP7 project "Capture-Reconstruct-Play" and "Nature-Smart Cities - Sensing Nature in the Queen Elizabeth Olympic Park" EPSRC Impact project. See news article about Nature-Smart Cities project on BBC website.
 
 I completed my PhD in the Department of Computer Science at University College London under supervision of Prof. Jan Kautz and Dr. Simon Prince in collaboration with Dr. Neill D.F. Campbell. My PhD thesis, titled "Synthesizing and Editing Photo-realistic Visual Objects", explores image synthesis by combining computer graphics techniques with probabilistic generative models of computer vision. During my PhD I did a summer research internship at Creative Technologies Lab of Adobe in Seattle with Dr. Dan B Goldman.
 
