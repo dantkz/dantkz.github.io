@@ -31,9 +31,7 @@ bibtex
 -->
 
 ####  Harmonic Networks: Deep Translation and Rotation Equivariance
-
-Daniel E. Worrall, Stephan J. Garbin, Daniyar Turmukhambetov and Gabriel J. Brostow
-
+Daniel E. Worrall, Stephan J. Garbin, Daniyar Turmukhambetov and Gabriel J. Brostow\
 In Conference on Computer Vision and Pattern Recognition, 2017
 
 <!---
@@ -44,11 +42,8 @@ bibtex
 -->
 
 ####  Help, It Looks Confusing: GUI Task Automation Through Demonstration and Follow-up Questions
-
-Thanapong Intharah, Daniyar Turmukhambetov and Gabriel J. Brostow
-
-In ACM Intelligent User Interfaces (IUI), 2017
-
+Thanapong Intharah, Daniyar Turmukhambetov and Gabriel J. Brostow\
+In ACM Intelligent User Interfaces (IUI), 2017\
 Best Student Paper Honorable Mention
 
 <!---
@@ -60,9 +55,7 @@ bibtex
 -->
 
 #### Synthesizing and Editing Photo-realistic Visual Objects
-
-Daniyar Turmukhambetov
-
+Daniyar Turmukhambetov\
 PhD Thesis at University College London, 2016
 
 <!---
@@ -72,9 +65,7 @@ bibtex
 -->
 
 #### Modeling Object Appearance using Context-Conditioned Component Analysis
-
-Daniyar Turmukhambetov, Neill D.F. Campbell, Simon J.D. Prince and Jan Kautz
-
+Daniyar Turmukhambetov, Neill D.F. Campbell, Simon J.D. Prince and Jan Kautz\
 In Conference on Computer Vision and Pattern Recognition, 2015
 
 <!---
@@ -84,9 +75,7 @@ bibtex
 -->
 
 #### Interactive Sketch-Driven Image Synthesis
-
-Daniyar Turmukhambetov, Neill D.F. Campbell, Dan B Goldman and Jan Kautz
-
+Daniyar Turmukhambetov, Neill D.F. Campbell, Dan B Goldman and Jan Kautz\
 In Computer Graphics Forum, 2015
 
 <!---
@@ -97,9 +86,7 @@ bibtex
 -->
 
 #### Intrinsic Images from Color and Depth
-
-Daniyar Turmukhambetov
-
+Daniyar Turmukhambetov\
 MSc Thesis at University College London, 2011
 
 <!---
