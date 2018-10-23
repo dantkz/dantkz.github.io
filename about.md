@@ -13,7 +13,7 @@ Previously, I was a post-doctoral research associate with Dr. Gabriel Brostow at
 I completed my PhD in the Department of Computer Science at University College London under supervision of Prof. Jan Kautz and Dr. Simon Prince in collaboration with Dr. Neill D.F. Campbell. My PhD thesis, titled "Synthesizing and Editing Photo-realistic Visual Objects", explores image synthesis by combining computer graphics techniques with probabilistic generative models of computer vision. During my PhD I did a summer research internship at Creative Technologies Lab of Adobe in Seattle with Dr. Dan B Goldman.
 
 Before starting my PhD, I finished MSc in Computer Graphics, Vision and Imaging at UCL with distinction. My Master Thesis "Intrinsic Images from Color and Depth", supervised by Dr. Gabriel Brostow, has won "BBC Best Project Prize".
-Previously, I completed my bachelor degree at Tsinghua University with a scholarship from China National Petroleum Corporation.
+I completed Bachelor of Engineering in "Computer Science and Technology" at Tsinghua University with a scholarship from China National Petroleum Corporation.
 
 ## Publications
 
