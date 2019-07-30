@@ -18,6 +18,7 @@ I completed Bachelor of Engineering in "Computer Science and Technology" at Tsin
 ## Publications
 
 **HILC: Domain-Independent PbD System Via Computer Vision and Follow-Up Questions**  
+
 Thanapong Intharah, Daniyar Turmukhambetov and Gabriel J. Brostow  
 In ACM Transactions on Interactive Intelligent Systems (TiiS), 2019  
 [preprint](http://discovery.ucl.ac.uk/10075771/)
