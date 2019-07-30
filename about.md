@@ -15,10 +15,11 @@ I completed my PhD in the Department of Computer Science at University College L
 Before starting my PhD, I finished MSc in Computer Graphics, Vision and Imaging at UCL with distinction. My Master Thesis "Intrinsic Images from Color and Depth", supervised by Dr. Gabriel Brostow, has won "BBC Best Project Prize".
 I completed Bachelor of Engineering in "Computer Science and Technology" at Tsinghua University with a scholarship from China National Petroleum Corporation.
 
+[UCL page](http://www0.cs.ucl.ac.uk/staff/dturmukh)
+
 ## Publications
 
 **HILC: Domain-Independent PbD System Via Computer Vision and Follow-Up Questions**  
-
 Thanapong Intharah, Daniyar Turmukhambetov and Gabriel J. Brostow  
 In ACM Transactions on Interactive Intelligent Systems (TiiS), 2019  
 [preprint](http://discovery.ucl.ac.uk/10075771/)
@@ -97,6 +98,4 @@ MSc Thesis at University College London, 2011
 <!---
 monograph(PDF, 11.9Mb)
 -->
-
-[UCL page](http://www0.cs.ucl.ac.uk/staff/dturmukh)
 
