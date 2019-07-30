@@ -20,7 +20,6 @@ I completed Bachelor of Engineering in "Computer Science and Technology" at Tsin
 **HILC: Domain-Independent PbD System Via Computer Vision and Follow-Up Questions**
 Thanapong Intharah, Daniyar Turmukhambetov and Gabriel J. Brostow
 In ACM Transactions on Interactive Intelligent Systems (TiiS), 2019
-
 [preprint](http://discovery.ucl.ac.uk/10075771/)
 <!---
 [project webpage](http://visual.cs.ucl.ac.uk/pubs/)
@@ -33,7 +32,6 @@ bibtex
 **Interpretable Transformations with Encoder-Decoder Networks**  
 Daniel E. Worrall, Stephan J. Garbin, Daniyar Turmukhambetov and Gabriel J. Brostow  
 In International Conference on Computer Vision, 2017
-
 [project webpage](http://visual.cs.ucl.ac.uk/pubs/interpTransform/index.html)
 <!---
 arxiv
@@ -44,9 +42,9 @@ bibtex
 **Harmonic Networks: Deep Translation and Rotation Equivariance**  
 Daniel E. Worrall, Stephan J. Garbin, Daniyar Turmukhambetov and Gabriel J. Brostow  
 In Conference on Computer Vision and Pattern Recognition, 2017
+[project webpage](http://visual.cs.ucl.ac.uk/pubs/harmonicNets/index.html)
 
 <!---
-project webpage
 arxiv
 preprint(PDF, 4.1Mb)
 bibtex
@@ -56,7 +54,6 @@ bibtex
 Thanapong Intharah, Daniyar Turmukhambetov and Gabriel J. Brostow  
 In ACM Intelligent User Interfaces (IUI), 2017  
 Best Student Paper Honorable Mention
-
 [project webpage](http://visual.cs.ucl.ac.uk/pubs/HILC/index.html)
 <!---
 arxiv
@@ -67,7 +64,6 @@ bibtex
 **Synthesizing and Editing Photo-realistic Visual Objects**  
 Daniyar Turmukhambetov  
 PhD Thesis at University College London, 2016
-
 [UCL Thesis Repository](http://discovery.ucl.ac.uk/1531112/)
 <!---
 monograph(PDF, 57.5Mb)
@@ -77,7 +73,6 @@ bibtex
 **Modeling Object Appearance using Context-Conditioned Component Analysis**  
 Daniyar Turmukhambetov, Neill D.F. Campbell, Simon J.D. Prince and Jan Kautz  
 In Conference on Computer Vision and Pattern Recognition, 2015
-
 [project webpage](http://visual.cs.ucl.ac.uk/pubs/ccca/index.html)
 <!---
 paper(PDF, 5.2Mb)
@@ -87,7 +82,6 @@ bibtex
 **Interactive Sketch-Driven Image Synthesis**  
 Daniyar Turmukhambetov, Neill D.F. Campbell, Dan B Goldman and Jan Kautz  
 In Computer Graphics Forum, 2015
-
 [project webpage](http://visual.cs.ucl.ac.uk/pubs/isdis/index.html)
 <!---
 Free Access to Article at Wiley Online Library
