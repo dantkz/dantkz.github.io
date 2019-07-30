@@ -17,12 +17,25 @@ I completed Bachelor of Engineering in "Computer Science and Technology" at Tsin
 
 ## Publications
 
+**HILC: Domain-Independent PbD System Via Computer Vision and Follow-Up Questions**
+Thanapong Intharah, Daniyar Turmukhambetov and Gabriel J. Brostow
+In ACM Transactions on Interactive Intelligent Systems (TiiS), 2019
+
+[preprint](http://discovery.ucl.ac.uk/10075771/)
+<!---
+[project webpage](http://visual.cs.ucl.ac.uk/pubs/)
+arxiv
+(PDF, 0.8Kb)
+bibtex
+-->
+
+
 **Interpretable Transformations with Encoder-Decoder Networks**  
 Daniel E. Worrall, Stephan J. Garbin, Daniyar Turmukhambetov and Gabriel J. Brostow  
 In International Conference on Computer Vision, 2017
 
+[project webpage](http://visual.cs.ucl.ac.uk/pubs/interpTransform/index.html)
 <!---
-project webpage
 arxiv
 preprint(PDF, 0.8Kb)
 bibtex
@@ -44,9 +57,8 @@ Thanapong Intharah, Daniyar Turmukhambetov and Gabriel J. Brostow
 In ACM Intelligent User Interfaces (IUI), 2017  
 Best Student Paper Honorable Mention
 
+[project webpage](http://visual.cs.ucl.ac.uk/pubs/HILC/index.html)
 <!---
-project
-webpage
 arxiv
 draft(PDF, 5.4Mb)
 bibtex
@@ -56,9 +68,9 @@ bibtex
 Daniyar Turmukhambetov  
 PhD Thesis at University College London, 2016
 
+[UCL Thesis Repository](http://discovery.ucl.ac.uk/1531112/)
 <!---
 monograph(PDF, 57.5Mb)
-UCL Discovery
 bibtex
 -->
 
@@ -66,8 +78,8 @@ bibtex
 Daniyar Turmukhambetov, Neill D.F. Campbell, Simon J.D. Prince and Jan Kautz  
 In Conference on Computer Vision and Pattern Recognition, 2015
 
+[project webpage](http://visual.cs.ucl.ac.uk/pubs/ccca/index.html)
 <!---
-project webpage
 paper(PDF, 5.2Mb)
 bibtex
 -->
@@ -76,8 +88,8 @@ bibtex
 Daniyar Turmukhambetov, Neill D.F. Campbell, Dan B Goldman and Jan Kautz  
 In Computer Graphics Forum, 2015
 
+[project webpage](http://visual.cs.ucl.ac.uk/pubs/isdis/index.html)
 <!---
-project webpage
 Free Access to Article at Wiley Online Library
 preprint(PDF, 9.5Mb)
 bibtex
