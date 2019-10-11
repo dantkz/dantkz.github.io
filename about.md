@@ -19,6 +19,16 @@ I completed Bachelor of Engineering in "Computer Science and Technology" at Tsin
 
 ## Publications
 
+**Self-Supervised Monocular Depth Hints**  
+Jamie Watson, Michael Firman, Gabriel J. Brostow and Daniyar Turmukhambetov
+In International Conference on Computer Vision, 2019  
+[project webpage](https://github.com/nianticlabs/depth-hints)
+<!---
+arxiv
+preprint(PDF)
+bibtex
+-->
+
 **HILC: Domain-Independent PbD System Via Computer Vision and Follow-Up Questions**  
 Thanapong Intharah, Daniyar Turmukhambetov and Gabriel J. Brostow  
 In ACM Transactions on Interactive Intelligent Systems (TiiS), 2019  
