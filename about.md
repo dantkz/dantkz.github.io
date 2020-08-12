@@ -22,19 +22,19 @@ I completed Bachelor of Engineering in "Computer Science and Technology" at Tsin
 ## Publications
 
 **Learning Stereo from Single Images**  
-Jamie Watson, Oisin Mac Aodha, Daniyar Turmukhambetov, Gabriel J. Brostow and Michael Firman
+Jamie Watson, Oisin Mac Aodha, Daniyar Turmukhambetov, Gabriel J. Brostow and Michael Firman  
 In European Conference on Computer Vision, 2020  
 [project webpage](https://github.com/nianticlabs/stereo-from-mono)
 
 
 **Single-Image Depth Prediction Makes Features Matching Easier**  
-Carl Toft, Daniyar Turmukhambetov, Tosten Sattler, Fredrik Kahl and Gabriel J. Brostow
+Carl Toft, Daniyar Turmukhambetov, Tosten Sattler, Fredrik Kahl and Gabriel J. Brostow  
 In European Conference on Computer Vision, 2020  
 [project webpage](https://github.com/nianticlabs/rectified-features)
 
 
 **Predicting Visual Overlap of Images Through Interpretable Non-Metric Box Embeddings**  
-Anita Rau, Guillermo Garcia-Hernando, Danail Stoyanov, Gabriel J. Brostow and Daniyar Turmukhambetov
+Anita Rau, Guillermo Garcia-Hernando, Danail Stoyanov, Gabriel J. Brostow and Daniyar Turmukhambetov  
 In European Conference on Computer Vision, 2020  
 [project webpage](https://github.com/nianticlabs/image-box-overlap)
 
