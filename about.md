@@ -6,7 +6,7 @@ permalink: /about/
 
 # Dr. Daniyar Turmukhambetov
 
-I'm a senior research scientist at [Niantic](https://nianticlabs.com/blog/matrixmill/).
+I'm a staff research scientist at [Niantic](https://nianticlabs.com/blog/matrixmill/).
 
 Previously, I was a post-doctoral research associate with Dr. Gabriel Brostow at University College London. I worked on on EU-FP7 project "Capture-Reconstruct-Play" and "Nature-Smart Cities - Sensing Nature in the Queen Elizabeth Olympic Park" EPSRC Impact project. See news article about Nature-Smart Cities project on BBC website.
 
@@ -18,6 +18,12 @@ I completed Bachelor of Engineering in "Computer Science and Technology" at Tsin
 [UCL page](http://www0.cs.ucl.ac.uk/staff/dturmukh)
 
 ## Publications
+
+**Learning Stereo from Single Images**  
+Jamie Watson, Oisin Mac Aodha, Daniyar Turmukhambetov, Gabriel J. Brostow and Michael Firman
+In European Conference on Computer Vision, 2020  
+[project webpage](https://github.com/nianticlabs/stereo-from-mono)
+
 
 **Self-Supervised Monocular Depth Hints**  
 Jamie Watson, Michael Firman, Gabriel J. Brostow and Daniyar Turmukhambetov
