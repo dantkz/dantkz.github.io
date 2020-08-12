@@ -25,15 +25,23 @@ In European Conference on Computer Vision, 2020
 [project webpage](https://github.com/nianticlabs/stereo-from-mono)
 
 
+**Single-Image Depth Prediction Makes Features Matching Easier**  
+Carl Toft, Daniyar Turmukhambetov, Tosten Sattler, Fredrik Kahl and Gabriel J. Brostow
+In European Conference on Computer Vision, 2020  
+[project webpage](https://github.com/nianticlabs/rectified-features)
+
+
+**Predicting Visual Overlap of Images Through Interpretable Non-Metric Box Embeddings**  
+Anita Rau, Guillermo Garcia-Hernando, Danail Stoyanov, Gabriel J. Brostow and Daniyar Turmukhambetov
+In European Conference on Computer Vision, 2020  
+[project webpage](https://github.com/nianticlabs/image-box-overlap)
+
+
 **Self-Supervised Monocular Depth Hints**  
 Jamie Watson, Michael Firman, Gabriel J. Brostow and Daniyar Turmukhambetov
 In International Conference on Computer Vision, 2019  
 [project webpage](https://github.com/nianticlabs/depth-hints)
-<!---
-arxiv
-preprint(PDF)
-bibtex
--->
+
 
 **HILC: Domain-Independent PbD System Via Computer Vision and Follow-Up Questions**  
 Thanapong Intharah, Daniyar Turmukhambetov and Gabriel J. Brostow  
