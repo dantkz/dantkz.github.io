@@ -6,7 +6,9 @@ permalink: /about/
 
 # Dr. Daniyar Turmukhambetov
 
-I'm a staff research scientist at [Niantic](https://nianticlabs.com/blog/matrixmill/).
+I'm a staff research scientist at Niantic, creators of Pokemon GO.
+
+I've joined Niantic through acquisition of [Matrix Mill](https://nianticlabs.com/blog/matrixmill/), which I founded together with Dr. Gabriel Brostow and Dr. Michael Firman.
 
 Previously, I was a post-doctoral research associate with Dr. Gabriel Brostow at University College London. I worked on on EU-FP7 project "Capture-Reconstruct-Play" and "Nature-Smart Cities - Sensing Nature in the Queen Elizabeth Olympic Park" EPSRC Impact project. See news article about Nature-Smart Cities project on BBC website.
 
