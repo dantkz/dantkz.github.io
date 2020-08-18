@@ -39,6 +39,11 @@ In European Conference on Computer Vision, 2020
 [project webpage](https://github.com/nianticlabs/image-box-overlap)
 
 
+**Image Stylization for Robust Features**  
+Iaroslav Melekhov, Gabriel J. Brostow, Juho Kannala, Daniyar Turmukhambetov  
+[arxiv](https://arxiv.org/abs/2008.06959)  
+
+
 **Self-Supervised Monocular Depth Hints**  
 Jamie Watson, Michael Firman, Gabriel J. Brostow and Daniyar Turmukhambetov
 In International Conference on Computer Vision, 2019  
