@@ -21,6 +21,13 @@ I completed Bachelor of Engineering in "Computer Science and Technology" at Tsin
 
 ## Publications
 
+
+**Single Image Depth Prediction with Wavelet Decomposition**  
+Michaël Ramamonjisoa, Michael Firman, Jamie Watson, Vincent Lepetit and Daniyar Turmukhambetov
+In Conference on Computer Vision and Pattern Recognition, 2021  
+[project webpage](https://github.com/nianticlabs/wavelet-monodepth)
+
+
 **Learning to Predict Repeatability of Interest Points**  
 Anh-Dzung Doan, Daniyar Turmukhambetov, Yasir Latif, Tat-Jun Chin and Soohyun Bae
 In International Conference on Robotics and Automation, 2021  
