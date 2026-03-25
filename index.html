@@ -9,9 +9,20 @@
 </head>
 
 <body>
+    <script>
+        function toggleText() {
+            var extra = document.getElementById("extraText");
+            var link = document.getElementById("moreLink");
+
+            if (extra.style.display === "none") {
+                extra.style.display = "inline"; // Or "block"
+                link.style.display = "none";    // Hides the "More..." link after opening
+            }
+        }
+    </script>
     <div id="main">
         <div id="cv">
-            <h2>Daniyar Turmukhambetov</h2>
+            <h2>Dr. Daniyar Turmukhambetov</h2>
             <span class="jobtitle"> - Staff Research Scientist, Niantic Spatial (London)</span>
             <span class="contact"><a href="https://x.com/dantkz">X / Twitter</a></span>
             <span class="contact"><a href="https://www.linkedin.com/in/daniyartur/">LindedIn</a></span>
@@ -23,83 +34,107 @@
             </div>
             <div id="text">
                 <p>
-                    I’m a researcher at Niantic Spatial in London, working on 3D computer vision.
+                    I'm Staff Researcher Scientist at Niantic Spatial in London, UK, working on machine learning and
+                    computer vision.
+                    I hold a PhD in computer vision and I have 16 years of research experience, 8 years of industry work
+                    experience, track record of mentoring, publishing and shipping.
                 </p>
                 <p>
                     Niantic Spatial is a spin-off of Niantic Labs, creators of Pokemon Go, Monster Hunter Now, Ingress
                     and Peridot.
-                    I’ve joined Niantic through acquisition of Matrix Mill, which I founded together with Dr. Gabriel
+
+                    I work in London-based RnD team, where I build cutting edge neural networks and algorithms for
+                    Augmented Reality and Large Geospatial Models. I've trained and shipped production-grade neural
+                    networks to millions of players of global hits like Pokémon GO and Peridot.
+
+                    I've joined Niantic through acquisition of Matrix Mill, which I founded together with Dr. Gabriel
                     Brostow and Dr. Michael Firman.
                 </p>
-                <p>
-                    Previously, I was a post-doctoral research associate with Dr. Gabriel Brostow at University College
-                    London. I worked on on EU-FP7 project “Capture-Reconstruct-Play” and “Nature-Smart Cities - Sensing
-                    Nature in the Queen Elizabeth Olympic Park” EPSRC Impact project. See news article about
-                    Nature-Smart Cities project on BBC website.
-                </p>
 
-                <p>
-                    I completed my PhD in the Department of Computer Science at University College London under
-                    supervision of Prof. Jan Kautz and Dr. Simon Prince in collaboration with Dr. Neill D.F. Campbell.
-                    My PhD thesis, titled “Synthesizing and Editing Photo-realistic Visual Objects”, explores image
-                    synthesis by combining computer graphics techniques with probabilistic generative models of computer
-                    vision. During my PhD I did a summer research internship at Creative Technologies Lab of Adobe in
-                    Seattle with Dr. Dan B Goldman.
-                </p>
+                <a href="javascript:void(0);" onclick="toggleText()" id="moreLink" style="padding: 0 5%;">Previously, I
+                    was ...</a>
+                <span id="extraText" style="display: none;">
+                    <p>
+                        Previously, I was a post-doctoral research associate with Dr. Gabriel Brostow at University
+                        College
+                        London.
 
-                <p>
-                    Before starting my PhD, I finished MSc in Computer Graphics, Vision and Imaging at UCL with
-                    distinction. My Master Thesis “Intrinsic Images from Color and Depth”, supervised by Dr. Gabriel
-                    Brostow, has won “BBC Best Project Prize”. I completed Bachelor of Engineering in “Computer Science
-                    and Technology” at Tsinghua University with a scholarship from China National Petroleum Corporation.
-                </p>
+                        I worked on on EU-FP7 project “Capture-Reconstruct-Play” and “Nature-Smart Cities - Sensing
+                        Nature in the Queen Elizabeth Olympic Park” EPSRC Impact project. See news article about
+                        Nature-Smart Cities project on BBC website.
+                    </p>
+
+                    <p>
+                        I completed my PhD in the Department of Computer Science at University College London under
+                        supervision of Prof. Jan Kautz and Dr. Simon Prince in collaboration with Dr. Neill D.F.
+                        Campbell.
+                        My PhD thesis, titled “Synthesizing and Editing Photo-realistic Visual Objects”, explores image
+                        synthesis by combining computer graphics techniques with probabilistic generative models of
+                        computer
+                        vision. During my PhD I did a summer research internship at Creative Technologies Lab of Adobe
+                        in
+                        Seattle with Dr. Dan B Goldman.
+                    </p>
+
+                    <p>
+                        Before starting my PhD, I finished MSc in Computer Graphics, Vision and Imaging at UCL with
+                        distinction. My Master Thesis “Intrinsic Images from Color and Depth”, supervised by Dr. Gabriel
+                        Brostow, has won “BBC Best Project Prize”. I completed Bachelor of Engineering in “Computer
+                        Science
+                        and Technology” at Tsinghua University with a scholarship from China National Petroleum
+                        Corporation.
+                    </p>
+                </span>
             </div>
             <h3>PUBLICATIONS</h3>
             <hr>
             <table>
                 <tr>
-                    <td><a href="https://arxiv.org/abs/2508.21542">arxiv</a></td>
+                    <td><a href="https://nianticspatial.github.io/completesplat/">project webpage</a></td>
                     <td>
-                        <span class="papertitle">Complete gaussian splats from a single image with denoising
-                            diffusion models</span><br />
+                        <span class="papertitle">Complete Gaussian Splats from a Single Image with Denoising
+                            Diffusion Models</span><br />
                         <small class="paperlinks">(<a
-                                href="https://arxiv.org/abs/2508.21542">arxiv.org/abs/2508.21542</a>)<br /></small>
-                        Z Liao, M Sayed, SL Waslander, S Vicente, <b>D Turmukhambetov</b>, M Firman<br />
+                                href="https://nianticspatial.github.io/completesplat/">nianticspatial.github.io/completesplat/</a>)<br /></small>
+                        Ziwei Liao, Mohamed Sayed, Steven L. Waslander, Sara Vicente, <b>Daniyar Turmukhambetov</b>,
+                        Michael Firman<br />
                         arXiv 2025<br />
                     </td>
                 </tr>
 
                 <tr>
-                    <td><!-- <a href="#">project webpage </a>--></td>
+                    <td><a href="https://nianticlabs.github.io/mvsanywhere/">project webpage </a></td>
                     <td>
-                        <span class="papertitle">Mvsanywhere: Zero-shot multi-view stereo</span><br />
+                        <span class="papertitle">MvsAnywhere: Zero-shot Multi-view Stereo</span><br />
                         <small class="paperlinks">(<a
-                                href="https://scholar.google.com">scholar.google.com</a>)<br /></small>
-                        S Izquierdo, M Sayed, M Firman, G Garcia-Hernando, <b>D Turmukhambetov</b>, ...<br />
+                                href="https://nianticlabs.github.io/mvsanywhere/">nianticlabs.github.io/mvsanywhere/</a>)<br /></small>
+                        Sergio Izquierdo, Mohamed Sayed, Michael Firman, Guillermo Garcia-Hernando, <b>Daniyar
+                            Turmukhambetov</b>, Javier Civera, Oisin Mac Aodha, Gabriel Brostow, Jamie Watson<br />
                         CVPR 2025<br />
                     </td>
                 </tr>
 
                 <tr>
-                    <td><!-- <a href="#">project webpage </a>--></td>
+                    <td><a href="https://nianticlabs.github.io/acezero/">project webpage </a></td>
                     <td>
-                        <span class="papertitle">Scene coordinate reconstruction: Posing of image collections via
-                            incremental learning of a relocalizer</span><br />
+                        <span class="papertitle">Scene Coordinate Reconstruction: Posing of Image Collections via
+                            Incremental Learning of a Relocalizer</span><br />
                         <small class="paperlinks">(<a
-                                href="https://scholar.google.com">scholar.google.com</a>)<br /></small>
-                        E Brachmann, J Wynn, S Chen, T Cavallari, Á Monszpart, <b>D Turmukhambetov</b>, ...<br />
+                                href="https://nianticlabs.github.io/acezero">nianticlabs.github.io/acezero</a>)<br /></small>
+                        Eric Brachmann, Jamie Wynn, Shuai Chen, Tommaso Cavallari, Áron Monszpart, <b>Daniyar
+                            Turmukhambetov</b>, Victor Adrian Prisacariu<br />
                         ECCV 2024<br />
                     </td>
                 </tr>
 
                 <tr>
-                    <td><!-- <a href="#">project webpage </a>--></td>
+                    <td><a href="https://github.com/nianticlabs/diffusionerf">project webpage </a></td>
                     <td>
-                        <span class="papertitle">DiffusioNeRF: Regularizing neural radiance fields with denoising
-                            diffusion models</span><br />
+                        <span class="papertitle">DiffusioNeRF: Regularizing Neural Radiance Fields with Denoising
+                            Diffusion Models</span><br />
                         <small class="paperlinks">(<a
-                                href="https://scholar.google.com">scholar.google.com</a>)<br /></small>
-                        J Wynn, <b>D Turmukhambetov</b><br />
+                                href="https://github.com/nianticlabs/diffusionerf">github.com/nianticlabs/diffusionerf</a>)<br /></small>
+                        Jamie Wynn, <b>Daniyar Turmukhambetov</b><br />
                         CVPR 2023<br />
                     </td>
                 </tr>
@@ -108,11 +143,11 @@
                     <td><a href="https://github.com/nianticlabs/scoring-without-correspondences">project webpage</a>
                     </td>
                     <td>
-                        <span class="papertitle">Two-view geometry scoring without correspondences</span><br />
+                        <span class="papertitle">Two-view Geometry Scoring without Correspondences</span><br />
                         <small class="paperlinks">(<a
                                 href="https://github.com/nianticlabs/scoring-without-correspondences">github.com/nianticlabs/scoring-without-correspondences</a>)<br /></small>
-                        Axel Barroso-Laguna, Eric Brachmann, Victor Adrian Prisacariu, Gabriel J Brostow, Daniyar
-                        Turmukhambetov<br />
+                        Axel Barroso-Laguna, Eric Brachmann, Victor Adrian Prisacariu, Gabriel J Brostow, <b>Daniyar
+                            Turmukhambetov</b><br />
                         CVPR 2023<br />
                     </td>
                 </tr>
@@ -120,8 +155,8 @@
                 <tr>
                     <td><a href="https://github.com/nianticlabs/map-free-reloc">project webpage</a></td>
                     <td>
-                        <span class="papertitle">Map-free Visual Relocalization: Metric pose relative to a single
-                            image</span><br />
+                        <span class="papertitle">Map-free Visual Relocalization: Metric Pose Relative to a Single
+                            Image</span><br />
                         <small class="paperlinks">(<a
                                 href="https://github.com/nianticlabs/map-free-reloc">github.com/nianticlabs/map-free-reloc</a>)<br /></small>
                         Eduardo Arnold, Jamie Wynn, Sara Vicente, Guillermo Garcia-Hernando, Aron Monszpart, Victor

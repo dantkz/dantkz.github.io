@@ -40,3 +40,17 @@ body {
     position: relative;
     margin: 0px auto;
 }
+
+#moreLink {
+    color: #97a4d9;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    /* Makes it sit on its own line */
+    margin-bottom: 10px;
+}
+
+#moreLink:hover {
+    text-decoration: underline;
+}
