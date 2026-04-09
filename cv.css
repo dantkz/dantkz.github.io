@@ -28,7 +28,7 @@
 }
 
 .papertitle {
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
 .paperlinks {
@@ -36,18 +36,10 @@
     display: block;
 }
 
-.award {
-    font-weight: bold;
-    color: red;
-}
-
-#blurb {
-    clear: both;
-}
-
 #cv h3 {
-    padding-top: 6px;
+    padding-top: 16px;
     padding-bottom: 0px;
+    font-size: 1.4em;
     color: #4f6b78;
     clear: both;
 }
@@ -68,32 +60,34 @@
 }
 
 #cv table td {
-    padding: 8px 0px;
+    padding: 20px 0px;
 }
 
 #cv table td:first-child {
     color: #8f7c68;
     font-weight: bold;
-    width: 220px;
+    width: 320px;
     padding-right: 15px;
     vertical-align: top;
 }
 
 #cv table img {
-    height: 102px;
+    width: 320px;
+    max-height: 200px;
+    object-fit: cover;
 }
 
 #picture {
     margin-top: 40px;
     width: 33%;
-    height: 300px;
+    height: 320px;
     display: inline-block;
     float: right;
 }
 
 #profilePicture {
     float: left;
-    height: 300px;
+    height: 320px;
     border-left: 10px solid white;
     border-right: 10px solid white;
 }
